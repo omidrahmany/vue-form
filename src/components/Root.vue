@@ -126,6 +126,7 @@ export default {
   },
   methods: {
     onSubmit(){
+      this.isSubmitted = true;
       console.log("submit the form!")
       /* check if our form data is valid*/
     }
